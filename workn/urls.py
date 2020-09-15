@@ -5,5 +5,5 @@ app_name = 'workn'
 
 urlpatterns = [
     path('', views.index, name='index'),
-    path('', views.add, name='add'),
+    path('add/', views.add, name='add'),
 ]
