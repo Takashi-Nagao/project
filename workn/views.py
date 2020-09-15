@@ -5,3 +5,6 @@ def index (request):
 
 def add (request):
   return render (request, 'workn/add.html')
+
+def add (request):
+  return render (request, 'workn/delete.html')
